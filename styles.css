@@ -1,8 +1,20 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+header{
+    background-color: #F8A350;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 300%;
+}
 .products {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
 }
 .card{
     margin-bottom: 10%;
