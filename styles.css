@@ -11,3 +11,26 @@ header{
     justify-content: space-around;
     line-height: 300%;
 }
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    margin-bottom: 10%;
+}
+.logo{
+    text-shadow: 0 0 10px #EE3D42;
+    font-size: 60px;
+}
+footer{
+    background-color: #231F20;
+}
+#splash{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pledgesports.org%2Fwp-content%2Fuploads%2F2018%2F02%2Frunning.jpg&f=1&nofb=1&ipt=79ba479424d2430f715435172310b463c5c95939ca0eb723fef83972cc464730&ipo=images');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    background-size: cover;
+}
+
