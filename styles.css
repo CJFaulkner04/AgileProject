@@ -46,12 +46,35 @@ footer{
     color: black;
 }
 .splasher div h2{
-    font-size: 3vw;
     margin: 0;
+    font-size: 4vw;
     padding: 30px;
 }
+
+@media screen and (min-width: 501px) {
+    .splasher div h2.example {
+      font-size: 4vw;
+    }
+  }
+  
+@media screen and (max-width: 500px) {
+    .splasher div h2.example {
+      font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .splasher div p.example {
+      font-size: 1.6vw;
+    }
+  }
+  
+@media screen and (max-width: 800px) {
+    .splasher div p.example {
+      font-size: 15px;
+    }
+}
 .splasher div p{
-    font-size: 2vw;
     padding: 40px;
 }
 .why{
