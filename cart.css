@@ -2,13 +2,13 @@ body {
   margin-top: 0;
   background: #f3f1f0;
 }
-header{
+header {
   display: flex;
   align-items: center;
   justify-content: space-around;
   line-height: 400%;
   margin-bottom: 80px;
-  background-color: #231F20;
+  background-color: #231f20;
 }
 h3 {
   font-size: 16px;
@@ -18,7 +18,7 @@ h3 {
 }
 .cart-product-imitation {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 0px;
   height: 80px;
   width: 80px;
   background-color: #f8f8f9;
@@ -42,18 +42,18 @@ h3 {
 .ecommerce .note-editor {
   border: 1px solid #e7eaec;
 }
-table.shoping-cart-table {
+table.shopping-cart-table {
   margin-bottom: 0;
 }
-table.shoping-cart-table tr td {
+table.shopping-cart-table tr td {
   border: none;
   text-align: right;
 }
-table.shoping-cart-table tr td.desc,
-table.shoping-cart-table tr td:first-child {
+table.shopping-cart-table tr td.desc,
+table.shopping-cart-table tr td:first-child {
   text-align: left;
 }
-table.shoping-cart-table tr td:last-child {
+table.shopping-cart-table tr td:last-child {
   width: 80px;
 }
 .ibox {
