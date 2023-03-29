@@ -3,7 +3,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .hero{
-    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://hip2save.com/wp-content/uploads/2019/09/double-gatorade.jpg");
+    background:linear-gradient(rgba(100, 100, 100, 0.7), rgba(100, 100, 100, 0.7)), url("https://hip2save.com/wp-content/uploads/2019/09/double-gatorade.jpg");
     background-repeat:no-repeat;
     background-size:contain;
     background-position: center;
@@ -13,7 +13,7 @@ header {
     background-color: #231F20;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     line-height: 400%;
 }
 h1, h2, h3{

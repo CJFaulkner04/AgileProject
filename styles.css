@@ -8,8 +8,8 @@ body{
 header{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    line-height: 300%;
+    justify-content: space-between;
+    line-height: 400%;
     margin-bottom: 80px;
 }
 h1, h2, h3{
