@@ -1,15 +1,16 @@
 body{
-    background-color: white;
+    background-color: #231F20;
     margin: 0;
     padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
     color: white;
 }
 header{
-    background-color: #F8A350;
     display: flex;
     align-items: center;
     justify-content: space-around;
     line-height: 300%;
+    margin-bottom: 80px;
 }
 .products {
     display: flex;
@@ -18,4 +19,37 @@ header{
 }
 .card{
     margin-bottom: 10%;
+}
+.logo{
+    text-shadow: 0 0 10px #EE3D42;
+    font-size: 60px;
+}
+footer{
+    background-color: #231F20;
+}
+#splash{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pledgesports.org%2Fwp-content%2Fuploads%2F2018%2F02%2Frunning.jpg&f=1&nofb=1&ipt=79ba479424d2430f715435172310b463c5c95939ca0eb723fef83972cc464730&ipo=images');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    background-size: cover;
+    padding-bottom: 40px;
+}
+.splasher{
+    text-align: center;
+}
+.splasher div{
+    text-align: center;
+    color: black;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 100px;
+}
+.splasher div h2{
+    font-size: 3vw;
+    margin: 0;
+    padding: 30px;
+}
+.splasher div p{
+    font-size: 2vw;
+    padding: 40px;
 }
