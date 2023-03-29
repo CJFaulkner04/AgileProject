@@ -1,5 +1,5 @@
 body {
-background-color:bisque;
+background-color:#f3f1f0;
 }
 .products {
     display: flex;
@@ -12,9 +12,9 @@ background-color:bisque;
     border: solid #0d6efd 1px;
 }
 header {
-    background-color: #F8A350;
+    background-color: #231F20;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    line-height: 300%;
+    line-height: 400%;
 }
