@@ -1,6 +1,14 @@
 body {
-  margin-top: 20px;
+  margin-top: 0;
   background: #f3f1f0;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 400%;
+  margin-bottom: 80px;
+  background-color: #231f20;
 }
 h3 {
   font-size: 16px;
