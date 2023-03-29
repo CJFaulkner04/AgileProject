@@ -28,7 +28,7 @@ footer{
     background-color: #231F20;
 }
 #splash{
-    background:linear-gradient(rgba(255, 255, 255, 0.7), rgba(150, 150, 150, 0.7)), url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pledgesports.org%2Fwp-content%2Fuploads%2F2018%2F02%2Frunning.jpg&f=1&nofb=1&ipt=79ba479424d2430f715435172310b463c5c95939ca0eb723fef83972cc464730&ipo=images');
+    background:linear-gradient(rgba(255, 255, 255, 0.7), rgba(200, 200, 200, 0.7), rgba(150, 150, 150, 0.7), rgba(0, 0, 0, 0.7)), url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pledgesports.org%2Fwp-content%2Fuploads%2F2018%2F02%2Frunning.jpg&f=1&nofb=1&ipt=79ba479424d2430f715435172310b463c5c95939ca0eb723fef83972cc464730&ipo=images');
     background-repeat:no-repeat;
     background-size:contain;
     background-position:center;
@@ -50,4 +50,7 @@ footer{
 .splasher div p{
     font-size: 2vw;
     padding: 40px;
+}
+.why{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
 }
