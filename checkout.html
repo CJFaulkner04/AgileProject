@@ -4,12 +4,207 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link href="checkout.css" rel="stylesheet">
+    <title>checkout</title>
 </head>
 <body>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <header>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-world.net%2Fwp-content%2Fuploads%2F2020%2F05%2FGatorade-Emblem-700x394.png&f=1&nofb=1&ipt=a391be81def89b30d41954bb90fa69e0f3b325bbc003d1382d62c2c2fa26010a&ipo=images" height="70px">
+        <nav>
+            <ul class="nav fs-3">
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fpreview%2Fwhite%2Fcart-44-xxl.png&f=1&nofb=1&ipt=4b455109ef820bf569f0ca6b607ef96e96f6af5b4ab1be771f81e6cf96a05e43&ipo=images" height="30px" style="padding-bottom: 5px;"></a>
+                </li>
+              </ul>
+        </nav>
+    </header>
+    <div class="container my-5"> 
+     <div class="container my-5">
+        <h3>Secured checkout</h3>
+         <div class="row">
+            <div class="col-md-8">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Image</th>
+                            <th>Price</th>
+                            <th>Quantity</th> 
+                            <th> Total</th>                                                                                                                                      </th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Product 1</td>
+                            <td><img></img></td>
+                            <td>4</td>
+                            <td>1</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Product 1</td>
+                            <td><img></img></td>
+                            <td>4</td>
+                            <td>1</td>
+                            <td>4</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Summary</h4>
+                        <p class="card-text">Total: 4</p>
+                        <p class="card-text">Subtotal: </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <div class="col-md-8 order-md-1">
+           <h4 class="mb-3">Billing address</h4>
+          <form class="needs-validation" novalidate="0">
+               <div class="row">
+                   <div class="col-md-6 mb-3">  
+                     <label for="firstName">First name</label>
+                         <input type="text" class="form-control" id="firstName" placeholder="name" value="" required>
+                        <div class="invalid-feedback"> Valid first name is required. </div>
+                     </div>
+                    <div class="col-md-6 mb-3">
+             <label for="lastName">Last name</label>
+                      <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                         <div class="invalid-feedback"> Valid last name is required. </div>
+                     </div>
+                </div>
+               <div class="mb-3">
+                   <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">@</span>
+                        </div>
+                        <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                       <div class="invalid-feedback" style="width: 100%;"> Your username is required. </div>
+                    </div>
+                </div>
+                 <div class="mb-3">
+                    <label for="email">Email <span class="text-muted">(Optional)</span></label>
+               <input type="email" class="form-control" id="email" placeholder="sam@gmail.com">
+                   <!-- <div class="invalid-feedback"> Please enter a valid email address for shipping updates.-->                    </div>
+                 </div>
+               <div class="mb-3">
+                   <label for="address">Address</label>
+                   <input type="text" class="form-control" id="address" placeholder="555 Main St" required="">
+                     <div class="invalid-feedback"> Please enter your shipping address. </div>
+                </div>
+                     <div class="mb-3">
+                  <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
+                    <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                 </div>
+                <div class="row">
+                     <div class="col-md-5 mb-3">
+                       <label for="country">Country</label>
+                         <select class="custom-select d-block w-100" id="country" required="">
+                            <option value="">Choose...</option>
+                             <option>United States</option>
+                        </select>
+                       <div class="invalid-feedback"> Please select a valid country. </div>
+                   </div>
+                    <div class= "col-md-4 mb-3">
+                        <label for="state">State</label>
+                        <select class="custom-select d-block w-100" id="state" required="">
+                            <option value="">Choose...</option>
+                            <option>California</option>
+                        </select>
+                       <div class="invalid-feedback"> Please provide a valid state. </div>
+                     </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="zip">Zip</label>
+                        <input type="text" class="form-control" id="zip" placeholder="28277" required="">
+                        <div class="invalid-feedback"> Zip code required. </div>
+                    </div>
+                </div>
+                <hr class="mb-4">
+               <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="same-address">
+                   <label class="custom-control-label" for="same-address">Shipping address is the same as my billing address</label>
+                 </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="save-info">
+                    <label class="custom-control-label" for="save-info">Save this information for next time</label>
+                </div>
+                <hr class="mb-4">
+               <h4 class="mb-3">Payment</h4>
+                <div class="d-block my-3">
+                   <div class="custom-control custom-radio">
+                         <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked="" required="">
+                        <label class="custom-control-label" for="credit">Credit card</label>
+                    </div>
+                     <div class="custom-control custom-radio">
+                        <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required="">
+                         <label class="custom-control-label" for="debit">Debit card</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required="">
+                        <label class="custom-control-label" for="paypal">PayPal</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="cc-name">Name on card</label>
+                        <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+                        <small class="text-muted">Full name as displayed on card</small>
+                        <div class="invalid-feedback"> Name on card is required </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="cc-number">Credit card number</label>
+                        <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+                        <div class="invalid-feedback"> Credit card number is required </div>
+                    </div>
+               </div>
+                 <div class="row">
+                     <div class="col-md-3 mb-3">
+                        <label for="cc-expiration">Expiration</label>
+                       <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+                        <div class="invalid-feedback"> Expiration date required </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="cc-cvv">CVV</label>
+                        <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+                        <div class="invalid-feedback"> Security code required </div>
+                    </div>
+                </div>
+                 <hr class="mb-4">
+                <button class="btn btn-primary btn-lg btn-block" type="submit">Place Order</button>
+            </form>
+       </div>
+    </div>
+    <div class="footer-container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top">
+            <p class="col-md-4 mb-0 text-black">© 2023 Stiegler EdTech</p>
+            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-black">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-black">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-black">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-black">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-black">About</a></li>
+            </ul>
+        </footer>
+    </div>
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+
 </body>
 </html>
