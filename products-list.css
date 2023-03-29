@@ -1,5 +1,6 @@
 body {
 background-color:#f3f1f0;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .products {
     display: flex;
@@ -17,4 +18,7 @@ header {
     align-items: center;
     justify-content: space-around;
     line-height: 400%;
+}
+h1, h2, h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
     display:flex;
@@ -7,4 +8,7 @@ header{
     justify-content: space-around;
     background-color: #231F20;
     line-height: 400%;
+}
+h1, h2, h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
